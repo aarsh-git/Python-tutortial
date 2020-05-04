@@ -1,0 +1,15 @@
+#There are 2 more kinds of variables- lists and tuples
+lis1 = [8 , 3, "Henry", "Python"]# if enclosed in [] it is a list
+tuple1 = (7654, "Strong", "more")#if enclosed in () it is a tuple
+
+print(tuple1)           # Prints complete tuple
+print(tuple1[1])        # Prints first element of the tuple
+print(tuple1[1:3])      # Prints elements starting from 2nd till 3rd 
+print(tuple1[2:])       # Prints elements starting from 3rd element
+print(tuple1* 2)   # Prints tuple two times
+#similar commands apply for lists
+
+print(lis1)           # Prints complete tuple
+print(lis1[0])        # Prints first element of the tuple
+print(lis1[1:3])      # Prints elements starting from 2nd till 3rd 
+print(lis1[2:])       # Prints elements starting from 3rd element
