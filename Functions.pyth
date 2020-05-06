@@ -1,0 +1,23 @@
+#Example 1
+def stamp(str):#The first statement defines the function(str-string ie it accepts only string)
+	"This function prints strings"#this statement tells us what the function does.It is a good practice to do this 
+	print(str)
+	return#This code does not return anything so return 0
+stamp("Hello")
+#Example2
+def absval(num):#This function can only accept numbers 
+	"Prints absolute value of given number"
+	if num >= 0:
+		return num
+	else:
+		return -num
+print(absval(-65))
+#Example 3
+def oddeven(num):
+	"This function tells whether a no is odd or even"
+	if num% 2 == 0:
+		return('The even number is',num)
+	else:
+		return('The odd no. is',num)
+
+print(oddeven(2))
