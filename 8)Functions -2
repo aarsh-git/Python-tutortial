@@ -1,0 +1,12 @@
+#Another easier way of representing functions are lambda function
+def dub(num):
+ 	print(num*2)
+ 	return
+dub(3)
+#This function can be represented as 
+double = lambda num:num *2
+print(double(3))
+#Eg-2 to filter even letters from a list
+my_list = [2,54,5332,75,8689,9867,654]
+new_list = list(filter(lambda x: (x%2 == 0) , my_list))
+print(new_list)
